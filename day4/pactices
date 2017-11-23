@@ -1,0 +1,32 @@
+git setup
+git config --global user.name
+git config --global user.email
+git config --global user.name "mo7rul"
+
+git config --global user.email "mo7rul@gmail.com"
+
+git clone https://github.com/mo7rul/static-project
+cd static-project
+
+$ git status
+$ git add .
+$ git status
+$ git commit -m "commit"
+$ git status
+
+
+
+
+****************************************
+CSS owner Håkon Wium Lie
+CSS- Class based Style sheet language...
+
+css class er basic structure
+selector {
+    property : value;
+        "          "
+}
+
+selector 3 types:
+Html tag or user define name
+
