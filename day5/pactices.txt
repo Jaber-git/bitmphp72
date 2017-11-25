@@ -1,0 +1,40 @@
+.row:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+ekhane after is pseudo element.
+pseudo class
+bises obostaiy full sob priborton kore
+
+sudo element
+bises obostaiy anshik priborton kore
+
+home work...
+ABCD EFGH dorow with HTML CSS
+
+@keyframes new ...
+
+.div-one{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    margin: 20px 0  0px 20px;
+    animation: bitm;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+
+}
+
+@keyframes bitm {
+    from{background-color: green}
+    to{background-color: gray}
+}
+
+@keyframes bitm {
+    0%{background-color: green}
+    25%{background-color: yellow}
+    50%{background-color: orange}
+    55%{background-color: black}
+    100%{background-color: gray}
+}
