@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <table align="center" class="table table-bordered table-hover">
+                    <tr class="table-info">
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email Address</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Rohim</td>
+                        <td>Khan</td>
+                        <td>Khan@gmail.com</td>
+                        <td>01715511615</td>
+                        <td>Sonir Akhra</td>
+                        <td>Dhaka</td>
+                        <td>Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Rohim</td>
+                        <td>Khan</td>
+                        <td>Khan@gmail.com</td>
+                        <td>01715511615</td>
+                        <td>Sonir Akhra</td>
+                        <td>Dhaka</td>
+                        <td>Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Rohim</td>
+                        <td>Khan</td>
+                        <td>Khan@gmail.com</td>
+                        <td>01715511615</td>
+                        <td>Sonir Akhra</td>
+                        <td>Dhaka</td>
+                        <td>Bangladesh</td>
+                    </tr>
+
+                </table>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" style=" border: 1px solid green">
+                <div class="row">
+                    <div class="col-sm-4" style="height: 100px; border: 1px solid red"></div>
+                    <div class="col-sm-4" style="height: 100px; border: 1px solid red"></div>
+                    <div class="col-sm-4" style="height: 100px; border: 1px solid red"></div>
+
+                </div>
+            </div>
+        </div><!--
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-6" style=" border: 1px solid">
+                <img src="img/logo.jpg" alt="" class="img-fluid"/>
+                </div>
+                <div class="col-sm-6" style="border: 1px solid">
+                <img src="img/logo.jpg" alt="" class="img-thumbnail"/>
+                </div>
+
+            </div>
+        </div>-->
+        <hr />
+        <div class="row">
+            <div class="col-sm-8">
+                <h3 align="center">Form</h3>
+                <div class="">
+                    <label class="col-sm-2 col-form-label" for="firstName">First Name :</label>
+                    <input  type="text" maxlength="10" id="firstName" placeholder="Your first name" name="first_name" class="col-sm-10" />
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3 align="center">Form</h3>
+                <div class="form-group">
+                    <label for="firstName">First Name :</label>
+                    <input  type="text" maxlength="10" id="firstName" placeholder="Your first name" name="first_name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name :</label>
+                    <input id="lastName" value="HOSSAIN" readonly type="text" name="last_name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="email_address">Email Address :</label>
+                    <input id="email_address" type="email" name="email_address" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password :</label>
+                    <input id="password" type="password" name="password" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="phone_number">Phone Number :</label>
+                    <input id="phone_number" min="10" type="number" name="phone_number" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="date_of_birth">Date of Birth :</label>
+                    <input id="date_of_birth" type="date" name="date_of_birth" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label><input type="radio" name="genter" value="male" /> Male</label>
+                    <label><input type="radio" name="genter" value="female" /> Female</label>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address :</label>
+                    <textarea id="address" type="text" name="address" class="form-control" > </textarea>
+                </div>
+                <div class="form-group">
+                    <label for="district_name">District Name :</label>
+                    <select name="district_name" class="form-control">
+                        <option>---Select District Name---</option>
+                        <option>Dhaka</option>
+                        <option>Sirajgonj</option>
+                        <option>Rajshahi</option>
+                        <option>Tangail</option>
+                        <option>Bogra</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="photo">Photo :</label>
+                    <input id="photo" type="file" name="photo" class="form-control" accept="image/*" />
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input id="form-check-lebel" type="checkbox" name="agree" class="form-check-input" > I agree with all
+                    </label>
+                </div>
+                <div class="form-group">
+                    <button type="" name="" class="btn btn-success"/>Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
