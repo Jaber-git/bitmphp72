@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.33%;}
+.col-12{width: 100%;}
+
+[class*='col-']{
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+[class*='character']{
+    float: left;
+}
+
+.row:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.wrapper{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.character{
+    border: 1px solid #cccccc;
+    width: 100%;
+    height: 200px;
+    float: left;
+    position: relative;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.a {
+    margin-left: 30px;
+}
+.character div{
+
+}
+.charactera {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(20deg);
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    position: relative;
+    left: 72px;
+}
+.charactera1 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    left: 32px;
+    position: relative;
+}
+.charactera2 {
+    border-top: 3px solid black;
+    width: 43px;
+    position: relative;
+    top: 55px;
+    left: 27px;
+}
+.characterb {
+    width: 33px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+    left: 35px;
+}
+.characterb1 {
+    width: 33px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+    top: 46px;
+    left: 2px;
+}
+
+.characterc {
+    width: 56px;
+    height: 96px;
+    border: 3px solid black;
+    border-radius: 50px 0px 0px 50px;
+    position: relative;
+    top: 2px;
+    left: 0;
+    border-right: 0;
+}
+.characterd {
+    width: 60px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 0px 50px 50px 0px;
+}
+.charactere {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-right: 0;
+    position: relative;
+    left: 20px;
+}
+.charactere1 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-right: 0;
+    position: relative;
+    left: -30px;
+    top: 46px;
+    border-top: 0;
+}
+.f .charactere1{
+    border-bottom: 0;
+}
+.characterh {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-top: 0;
+    position: relative;
+    left: 20px;
+}
+.characterh1 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-bottom: 0;
+    position: relative;
+    left: -30px;
+    top: 46px;
+    border-top: 0;
+}
+.characteri {
+    width: 3px;
+    height: 100px;
+    border-left: 3px solid black;
+}
+
+.characterj {
+    width: 66px;
+    height: 79px;
+    border-right: 3px solid black;
+}
+.characterj1 {
+    width: 50px;
+    height: 38px;
+    border: 3px solid black;
+    border-top: 0;
+    position: relative;
+    left: -50px;
+    top: 65px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.characterk1 {
+    width: 3px;
+    height: 100px;
+    background-color: black;
+    left: 15px;
+    position: relative;
+}
+.characterk2 {
+    width: 60px;
+    height: 50px;
+    border-left: 3px solid black;
+    position: relative;
+    transform: skew(-45deg);
+    position: relative;
+    left: 37px;
+}
+.characterk3 {
+    width: 60px;
+    height: 50px;
+    border-right: 3px solid black;
+    position: relative;
+    transform: skew(45deg);
+    position: relative;
+    left: -80px;
+    top: 48px;
+}
+.characterl1 {
+    width: 60px;
+    height: 100px;
+    border-left: 3px solid black;
+    position: relative;
+    left: -24px;
+    border-bottom: 3px solid black;
+}
+.characterg {
+    width: 50px;
+    height: 98px;
+    border: 3px solid black;
+    border-radius: 50px 0px 0px 50px;
+    position: relative;
+    top: 2px;
+    left: 0;
+    border-right: 0;
+}
+
+.characterg1 {
+    width: 35px;
+    height: 50px;
+    border: 3px solid black;
+    border-bottom: 0;
+    position: relative;
+    left: -35px;
+    top: 51px;
+    border-left: 0;
+}
+.characterm, .charactern {
+    width: 90px;
+    height: 100px;
+    border-left: 3px solid black;
+    position: relative;
+    left: 0;
+    border-right: 3px solid black;
+}
+.characterm1 {
+    width: 1px;
+    height: 45px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(-44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    position: relative;
+    left: -26px;
+}
+.characterm2 {
+    width: 1px;
+    height: 45px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    position: relative;
+    left: -72px;
+}
+
+.charactern1 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-44deg);
+    -webkit-transform: skew(41deg);
+    -moz-transform: skew(-44deg);
+    -o-transform: skew(-44deg);
+    position: relative;
+    left: -47px;
+}
+.charactero {
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.characterp {
+    width: 40px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+    left: 15px;
+}
+.characterp1 {
+    width: 32px;
+    height: 50px;
+    border-left: 3px solid black;
+    position: relative;
+    top: 46px;
+    left: -25px;
+}
+.characterq {
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.characterq1 {
+    width: 20px;
+    height: 50px;
+    border-left: 3px solid black;
+    transform: skew(45deg);
+    position: relative;
+    top: -25px;
+    left: 70px;
+}
+.characterr2 {
+    width: 17px;
+    height: 45px;
+    border-left: 3px solid black;
+    transform: skew(45deg);
+    position: relative;
+    top: 47px;
+    left: -32px;
+}
+
+
+
+.characters {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    border-radius: 50px 50px 0px 50px;
+    border: 3px solid black;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.characters1 {
+    width: 3px;
+    height: 15px;
+    border: 3px solid black;
+    border-right: 0;
+    position: absolute;
+    left: 42px;
+    top: 53px;
+    border-top: 0;
+    transform: skew(71deg);
+}
+.characters2 {
+    position: relative;
+    width: 60px;
+    height: 46px;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px solid black;
+    border-left: 0;
+    left: 0;
+    top: 5px;
+    border-top: 0;
+}
+
+.charactert {
+    width: 100px;
+    height: 3px;
+    border-top: 3px solid black;
+    border-right: 0;
+}
+.charactert1 {
+    width: 3px;
+    height: 100px;
+    border: 3px solid black;
+    border-right: 0;
+    position: relative;
+    left: -50px;
+    top: 0;
+    border-top: 0;
+}
+.characteru {
+    width: 50px;
+    height: 52px;
+    border: 3px solid black;
+    border-top: 0;
+    position: relative;
+    left: 20px;
+    border-bottom: 0;
+}
+.characteru1 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    position: relative;
+    left: -30px;
+    top: 46px;
+    border-top: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.characterv{
+    width: 80px;
+    height: 100px;
+}
+.characterv1 {
+    width: 3px;
+    height: 70px;
+    border-left: 3px solid black;
+    transform: skew(-36deg);
+    -webkit-transform: skew(-36deg);
+    -moz-transform: skew(-36deg);
+    -o-transform: skew(-36deg);
+    position: relative;
+    left: -26px;
+}
+.characterv2 {
+    width: 1px;
+    height: 70px;
+    border-left: 3px solid black;
+    transform: skew(-36deg);
+    -webkit-transform: skew(36deg);
+    -moz-transform: skew(-36deg);
+    -o-transform: skew(-36deg);
+    position: relative;
+    left: -78px;
+}
+.characterx {
+    width: 60px;
+    height: 100px;
+}
+.characterx1 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(-44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+}
+.characterx2 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+}
+
+.charactery {
+    width: 60px;
+    height: 75px;
+    border-left: 3px solid black;
+    position: relative;
+    left: 60px;
+    top: 38px;
+}
+.charactery1 {
+    width: 1px;
+    height: 40px;
+    border-left: 3px solid black;
+    transform: skew(-55deg);
+    -webkit-transform: skew(-55deg);
+    -moz-transform: skew(-55deg);
+    -o-transform: skew(-55deg);
+    position: relative;
+    left: 28px;
+}
+.charactery2 {
+    width: 1px;
+    height: 40px;
+    border-left: 3px solid black;
+    transform: skew(-55deg);
+    -webkit-transform: skew(55deg);
+    -moz-transform: skew(-55deg);
+    -o-transform: skew(-55deg);
+    position: relative;
+    left: -30px;
+}
+
+.characterz {
+    width: 100px;
+    height: 100px;
+    border-top: 3px solid black;
+    position: relative;
+    left: 0;
+    border-bottom: 3px solid black;
+}
+.characterz1 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-44deg);
+    -webkit-transform: skew(-46deg);
+    -moz-transform: skew(-44deg);
+    -o-transform: skew(-44deg);
+    position: relative;
+    left: -52px;
+}
+.characterw {
+    width: 100px;
+    height: 100px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.characterw1 {
+    width: 1px;
+    height: 89px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(-44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    position: relative;
+    left: -95px;
+    top: 50px;
+}
+.characterw2 {
+    width: 1px;
+    height: 62px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    position: relative;
+    top: -39px;
+    left: -22px;
+}
+/*.j,.k,.l,*/
+/*.r,.t,.u, .v,*/
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.m,.n,.o,.p,.q,.s,
+.w,.x,.y,.z {
+    width: 105px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    height: 100px;
+}
