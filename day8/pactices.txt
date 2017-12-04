@@ -1,0 +1,29 @@
+Form -input Element
+<form></form>
+HTML 5 elemtn
+--------------
+input
+textarea
+select
+datalist
+keygan
+output
+--------------
+{
+folder => new-folder
+file => -
+
+class => NewClass
+varibable,
+Function)
+
+input element name_name
+} all small letter..
+
+ure jai bokho pakhi--
+damal
+
+
+HOME Work
+google accoont --horizantal form
+facebook accont --vertical form
