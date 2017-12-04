@@ -18,6 +18,10 @@
 
 [class*='col-']{
     float: left;
+<<<<<<< HEAD
+=======
+    border: 1px solid gray;
+>>>>>>> 07e2a11b7410287039690686c5679d5d88f5c3b7
     box-sizing: border-box;
 }
 .row:after{
@@ -46,11 +50,14 @@
     height: 40px;
 }
 
+<<<<<<< HEAD
 .form-area {
     width: 95%;
     margin: 0 auto;
     text-align: right;
 }
+=======
+>>>>>>> 07e2a11b7410287039690686c5679d5d88f5c3b7
 
 @media screen and (max-width: 600px) {
     .demo{
