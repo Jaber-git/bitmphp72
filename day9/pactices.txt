@@ -1,0 +1,19 @@
+Java script controls bihabiore of element
+
+
+ JavaScript:
+ javascript is object oriented script language.
+ Javascript is programing languages.
+ Javascript is Script languages.
+ Script languages is ekta syntex er modde ar ekta syntex write kora jai..
+ if nije disition nite para...
+ syntex jodi ar ekjon porte pare and outpur dei..
+ Briend&eatch
+
+ Syntex
+ =========
+ Variable
+ operator
+ statement
+ array
+ function
