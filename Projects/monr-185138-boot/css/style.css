@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #dcdcdc;
+    padding: 0px;
+    margin: 0px;
 }
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
@@ -27,20 +30,110 @@ body{
     clear: both;
     display: block;
 }
-.container{
+.container {
+    background-color: white;
 }
+.navbar .container {
+    background-color: transparent;
+}
+
 ul{
     list-style-type: none;
 }
-.social-icon li{
-    float: left;
+.social-icon li {
+    display: inline-block;
+    text-align: right;
 }
+.quickLink{
+
+}
+
+.quickLink tr {
+    border-bottom: 1px solid #ccc;
+}
+.quickLink tr:hover {
+    background-color: #f0ffff;
+}
+
+.quickLink tr:hover td a{
+    color: #484c4c;
+}
+
+.quickLink tr:first-child {
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+.quickLink tr:last-child {
+    border-bottom: 0px solid #ccc;
+}
+.carousel-inner {
+    background-color: #F0FFFF;
+}
+.carousel-caption h3 {
+    color: darkblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 4px 0px 3px #000;
+}
+.carousel-caption p {
+    color: darkblue;
+    font-weight: bold;
+    text-shadow: 1px 0px 3px #000;
+}
+.project-portfolio img {
+    width: 100%;
+}
+.row.project-portfolio h3 {
+    font-size: 18px;
+    color: #2b2e30;
+    width: 100%;
+    padding-top: 25px;
+}
+.project-portfolio h3 a {
+    color: #2b2e30;
+    font-weight: bold;
+}
+.footer-area p {
+    text-align: center;
+    font-size: 12px;
+    background-color: burlywood;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+}
+
+.reg-form-area {
+    width: 460px;
+    margin: 0 auto;
+    text-align: right;
+    border: 1px solid #ccc;
+    padding-right: 30px;
+}
+ul.social-icon {
+    width: 100%;
+    text-align: right;
+    float: right;
+}
+
 @media screen and (max-width: 600px) {
     .demo{
         background-color: orangered;
     }
     [class*='col-']{
         width: 100%;
+    }
+    .form-group {
+        margin-bottom: 1rem;
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+    }
+    .reg-form-area {
+        width: 410px;
+        margin: 0 auto;
+        text-align: right;
+        border: 1px solid #ccc;
+        padding-right: 0px;
     }
 }
 @media screen and (max-width: 575px) {

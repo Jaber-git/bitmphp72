@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="reg-form-area" class="reg-form-area">
+    <h3 align="center">Form</h3>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formFirstName">First Name :</label>
+        <input  type="text" maxlength="10" id="formFirstName" placeholder="Your first name" name="formFirstName" class="col-sm-8 form-control" />
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formLastName">Last Name :</label>
+        <input  type="text" maxlength="10" id="formLastName" placeholder="Your last name" name="formLastName" class="col-sm-8 form-control" />
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formEmail">E-mail :</label>
+        <input  type="email" maxlength="10" id="formEmail" placeholder="Your email" name="formEmail" class="col-sm-8 form-control" />
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formPass">Password :</label>
+        <input  type="password" maxlength="10" id="formPass" placeholder="Choose your password" name="formPass" class="col-sm-8 form-control" />
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formPhone">Phone Number:</label>
+        <input  type="text" maxlength="15" id="formPhone" placeholder="Your phone no" name="formPhone" class="col-sm-8 form-control" />
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formBirthDay">Date of Birth :</label>
+        <input  type="date" id="formBirthDay" placeholder="Date of Birth" name="formBirthDay" class="col-sm-8 form-control" />
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formPhoto">Gender</label>
+        <label class="form-check-label text-left">
+            <label><input  type="radio" name="gender" value="male" />Male</label>
+            <label><input  type="radio" name="gender" value="female" />Female</label>
+        </label>
+
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formAddress">Address :</label>
+        <textarea id="formAddress" placeholder="Your Address" name="formAddress" class="col-sm-8 form-control" /></textarea>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="firstDistrict">Select District :</label>
+        <select id="firstDistrict" name="firstDistrict" class="col-sm-8 form-control" >
+            <option selected>---Secect Your District----</option>
+            <option >Sirajgonj</option>
+            <option >Bogra</option>
+            <option >Pabna</option>
+            <option >Nator</option>
+            <option >Rajshahi</option>
+            <option >Naogaon</option>
+        </select>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formPhoto">Attached Photo :</label>
+        <input  type="file" id="formPhoto" name="formPhoto" class="col-sm-8 form-control" />
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="formPhoto"></label>
+        <label class="form-check-label text-left">
+            <input  type="checkbox" id="formcheck" name="formcheck" class="form-check-input" /> I agree with all condition
+        </label>
+
+    </div>
+    <div class="form-group row">
+
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label"></label>
+        <input  type="submit" id="formSubmit" name="formSubmit" class="btn btn-success" />
+    </div>
+</div>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

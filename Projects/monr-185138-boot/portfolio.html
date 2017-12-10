@@ -2,56 +2,192 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Profile</title>
+    <title>Home</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
-<body bgcolor="#F5F5F5">
-<table width="1024" align="center" bgcolor="#FDFDFB">
-    <tr bgcolor="#DAE6F2">
-        <td align="center" height="120" width="120"><img src="img/monir.jpg" alt="MONIR" width="120" height="120"/></td>
-        <td colspan="2" align="center"><img src="img/goals-1.png" width="698" height="120"/></td>
-        <td valign="top" align="center">
-            <p>
-                <a target="_blank" href="https://github.com/monirul89/"><img width="18" height="18" src="img/github-logo.png" alt="Github"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/monirul89/"><img width="18" height="18" src="img/linked.png" alt="Linkin"></a>
-                <a target="_blank" href="https://stackoverflow.com/users/4858792/md-monirul-islam"><img width="18" height="18" src="img/stackoverflow.png" alt="Stack"></a>
-                <a target="_blank" href="https://twitter.com/csemonirul"><img width="18" height="18" src="img/twitter-icon.png" alt="twitter"></a>
-            </p>
-        </td>
-    </tr>
-    <tr bgcolor="#80BAF5">
-        <td height="50" colspan="4">
+<body>
 
-            <a href="home.html"> Home</a>
-            <a href="about.html"><font color="#fff"> About </font></a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="gallery.html"><font color="#fff"> Gallery </font></a>
-            <a href="contact.html"> Contact </a>
+<header>
+    <div class="jumbotron-fluid header-top clearfix">
+        <div class="container" align="center" bgcolor="#FDFDFB">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="row logo">
+                                <img src="img/monir.jpg" alt="MONIR" height="150"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="row banner">
+                                <img src="img/goals-1.png" height="150"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="row">
+                                <ul class="social-icon">
+                                    <li><a target="_blank" href="https://github.com/monirul89/">
+                                        <img width="18" height="18" src="img/github-logo.png" alt="Github"></a>
+                                    </li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/in/monirul89/">
+                                        <img width="18" height="18" src="img/linked.png" alt="Linkin"></a>
+                                    </li>
+                                    <li><a target="_blank" href="https://stackoverflow.com/users/4858792/md-monirul-islam">
+                                        <img width="18" height="18" src="img/stackoverflow.png" alt="Stack"></a>
+                                    </li>
+                                    <li><a target="_blank" href="https://twitter.com/csemonirul">
+                                        <img width="18" height="18" src="img/twitter-icon.png" alt="twitter"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" valign="top" bgcolor="#7c95ae">
+    <nav class="navbar bg-info navbar-expand-sm navbar-dark sticky-top">
+
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <img src="img/logo.jpg" alt="" height="50"/>
+            </a>
+            <button type="button" class="navbar-toggler" data-target="#mainMenu" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav mr-auto">
+                    <li><a class="nav-link" href="home.html"> Home</a></li>
+                    <li><a class="nav-link" href="about.html"> About </a></li>
+                    <li> <a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li> <a class="nav-link" href="contact.html"> Contact </a></li>
+                    <li class="dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu bg-info border-remove">
+                            <li><a href=""class="nav-link">Service One</a> </li>
+                            <li><a href=""class="nav-link">Service Two</a> </li>
+                            <li><a href=""class="nav-link">Service Three</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li><a data-toggle="modal" data-target="#reg-form-area " href="#" class="nav-link">Sign Up</a> </li>
+                    <li><a data-toggle="modal" data-target="#loging-user " href="#" class="nav-link">Login</a> </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<div class="slider-area">
+    <div class="container">
+        <div id="mainSlider" class="carousel slide row" data-ride="carousel" data-interval="1500">
+            <ol class="carousel-indicators">
+                <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#mainSlider" data-slide-to="1"></li>
+                <li data-target="#mainSlider" data-slide-to="2"></li>
+                <li data-target="#mainSlider" data-slide-to="3"></li>
+                <li data-target="#mainSlider" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="img/slider/1.png" class="w-100" height="250" alt="slider-1">
+                    <div class="carousel-caption">
+                        <h3>Contact us</h3>
+                        <p>Finding my please visit my contact us</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/slider/2.png" class="w-100" height="250" alt="slider-2">
+                    <div class="carousel-caption">
+                        <h3>MY MISSION VISION AND GOAL</h3>
+                        <p>Having a mission in life is
+                            very good as it would help you to stay focused</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/slider/3.png" class="w-100" height="250" alt="slider-3">
+                    <div class="carousel-caption">
+                        <h3>Contact us</h3>
+                        <p>Finding my please visit my contact menu</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/slider/4.png" class="w-100" height="250" alt="slider-4">
+                    <div class="carousel-caption">
+                        <h3>introduce yourself</h3>
+                        <p>My name is <strong> MD MONIRUL ISLAM </strong> . I am from ullapara in Sirajgonj</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/slider/5.png" class="w-100" height="250" alt="slider-5">
+                    <div class="carousel-caption">
+                        <h3>My Photo Gallery</h3>
+                        <p>introducing my family photo</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#mainSlider" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#mainSlider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 quickLink">
             <table width="100%">
                 <tr ><td><h3> Quick Link</h3></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="home.html#mision">Mision</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="home.html#vision">Vision</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="home.html#goal">Goal</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="about.html#educaion"> Educaion</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="contact.html#contact"> Contact us</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="about.html#family"> My Family</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="gallery.html#gallery"> Photo Gallery</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="portfolio.html#project">My Project</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="portfolio.html#pro">Pro Qualification</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="portfolio.html#specialization">Specialization</a></td></tr>
-                <tr bgcolor="#d8eafc"><td><a href="portfolio.html#personal">Personal Info</a></td></tr>
+                <tr>
+                    <td><a class="nav-link" href="home.html#mision">Mision</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="home.html#vision">Vision</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="home.html#goal">Goal</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="about.html#educaion"> Educaion</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="contact.html#contact"> Contact us</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="about.html#family"> My Family</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="gallery.html#gallery"> Photo Gallery</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="portfolio.html#project">My Project</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="portfolio.html#pro">Pro Qualification</a></td></tr>
+                <tr>
+                    <td><a class="nav-link" href="portfolio.html#specialization">Specialization</a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="portfolio.html#personal">Personal Info</a></td>
+                </tr>
             </table>
+        </div>
 
-        </td>
-        <td colspan="3" height="300"><img src="img/portfolio-hi.png" width="100%" height="300"></td>
-    </tr>
-    <tr>
-
-        <td colspan="2" height="600" valign="top">
+        <div class="col-sm-9">
             <table width="100%">
                 <tr align="center" valign="top">
                     <td>
@@ -132,103 +268,258 @@
                         </ul>
                     </td>
                 </tr>
-
-                <tr>
-                    <td colspan="2">
-                        <h2 id="project">Projects : </h2>
-                        <table>
-                            <tr>
-                                <td valign="top">
-                                    <h3><a target="_blank" href="http://www.fusion-radiology.com/">Project Name: Website
-                                        for fusion-radiology</a></h3>
-                                    <p>Fusion is UK based Tele-radiology Company that provides general and subspecialty
+            </table>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 id="project">Projects : </h2>
+                    <div class="row project-portfolio">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <h3><a target="_blank" href="http://www.fusion-radiology.com/">Project Name: Website
+                                    for fusion-radiology</a></h3>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <p>Fusion is UK based Tele-radiology Company that provides general and subspecialty
                                         reporting services to
                                         support existing radiology departments within NHS and private healthcare
-                                        organizations.</p></td>
-                                <td>
+                                        organizations.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <a target="_blank" href="http://www.fusion-radiology.com/">
                                         <img width="250" height="180" src="img/fusion-radiology.jpg" alt="Fusion">
                                     </a>
-                                </td>
-                            </tr>
-                            <tr>
+                                </div>
+                            </div>
 
-                                <td valign="top">
-                                    <h3><a target="_blank" href="http://themomsembroidery.com/">Project Name: The Mom's
-                                        Embroidery</a></h3>
-                                    <p>Learning common Hardanger Embroidery Stitches! Some of the Hardanger Embroidery
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <h3><a target="_blank" href="http://themomsembroidery.com/">Project Name: The Mom's
+                                    Embroidery</a></h3>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <p>Learning common Hardanger Embroidery Stitches! Some of the Hardanger Embroidery
                                         Stitches include Running Stitch,
                                         Four Sided Stitch, Hem Stitch, Buttonhole Stitch, Squared Edging Stitch, Eyelet
                                         Hole Stitch, Star Stitch.</p>
-                                </td>
-                                <td>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <a target="_blank" href="http://themomsembroidery.com/">
                                         <img width="250" height="180" src="img/themomsembroidery.jpg" alt="Embroidery">
                                     </a>
-                                </td>
-                            </tr>
-                            <tr>
+                                </div>
+                            </div>
+                        </div>
 
-                                <td valign="top">
-                                    <h3><a target="_blank" href="http://shafidi.com">Project Name: Shafidi BD Import &
-                                        Export</a></h3>
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <h3><a target="_blank" href="http://shafidi.com">Project Name: Shafidi BD Import &
+                                    Export</a></h3>
+                                <div class="col-sm-6">
+                                    <div class="row">
                                     <p>We are the leading exporter of Jute Sackings (Hessian or Burlap Bags, Hessian
-                                        Twill or Burlap Flour Bags, Food grade Coffee Sacks,
-                                        Burlap Feed/Grain Sacks, Heavy duty & plus size sacks, Jute/Burlap Sandbags,
-                                        Jute Woolpacks, etc</p>
-                                </td>
-                                <td>
+                                    Twill or Burlap Flour Bags, Food grade Coffee Sacks,
+                                    Burlap Feed/Grain Sacks, Heavy duty & plus size sacks, Jute/Burlap Sandbags,
+                                    Jute Woolpacks, etc</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <a target="_blank" href="http://shafidi.com">
                                         <img width="250" height="180" src="img/shafidi.jpg" alt="Shafidi">
                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <h3><a target="_blank" href="http://shafidi.com">Project Name: Shafidi BD Import &
+                                    Export</a></h3>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                    <p>We are the leading exporter of Jute Sackings (Hessian or Burlap Bags, Hessian
+                                    Twill or Burlap Flour Bags, Food grade Coffee Sacks,
+                                    Burlap Feed/Grain Sacks, Heavy duty & plus size sacks, Jute/Burlap Sandbags,
+                                    Jute Woolpacks, etc</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a target="_blank" href="http://shafidi.com">
+                                        <img width="250" height="180" src="img/shafidi.jpg" alt="Shafidi">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <table width="100%">
+                            <tr bgcolor="#b5b5b5" >
+                                <td colspan="2"><strong>Extra Curricular Activities:</strong></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p>Basic: Java, C, C++, C#.</p>
                                 </td>
                             </tr>
+                            <tr id="personal" bgcolor="#b5b5b5" >
+                                <td colspan="2"><strong>Personal Details :</strong></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p>Father's Name 	:	Jendar Ali Sarkar.<br />
+                                        Mother's Name 	:	Rakha Begum.<br />
+                                        Date of Birth	:	February 12, 1989<br />
+                                        Gender	:	Male<br />
+                                        Marital Status 	:	Unmarried<br />
+                                        Nationality	:	Bangladeshi<br />
+                                        National Id No.	:	8819451923222<br />
+                                        Religion	:	Islam.<br />
+                                        Permanent Address	:	Village-Char domdoma, Post- Bannakandi, Police station-Ullapara, District, Sirajgonj.<br />
+                                        Current Location	:	Dhaka</p>
 
+                                </td>
+                            </tr>
                         </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                    </td>
-                </tr>
-
-
-                <tr bgcolor="#b5b5b5" >
-                    <td colspan="2"><strong>Extra Curricular Activities:</strong></td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <p>Basic: Java, C, C++, C#.</p>
-                    </td>
-                </tr>
-                <tr id="personal" bgcolor="#b5b5b5" >
-                    <td colspan="2"><strong>Personal Details :</strong></td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <p>Father's Name 	:	Jendar Ali Sarkar.<br />
-                        Mother's Name 	:	Rakha Begum.<br />
-                        Date of Birth	:	February 12, 1989<br />
-                        Gender	:	Male<br />
-                        Marital Status 	:	Unmarried<br />
-                        Nationality	:	Bangladeshi<br />
-                        National Id No.	:	8819451923222<br />
-                        Religion	:	Islam.<br />
-                        Permanent Address	:	Village-Char domdoma, Post- Bannakandi, Police station-Ullapara, District, Sirajgonj.<br />
-                        Current Location	:	Dhaka</p>
-
-                    </td>
-                </tr>
-
-            </table>
-
-        </td>
-        <td bgcolor="#7c95ae" width="100"></td>
-    </tr>
-    <tr align="center" bgcolor="#DAE6F2">
-        <td height="50" colspan="4">
+<footer>
+    <div class="container">
+        <div class="row footer-area">
             <p>
                 90/B, Khilgaon(4th floor), Malibagh <br />
                 Chowdhury Para. D.I.T-Road.Dhaka-1219<br /><a href="mailto:monirul89@gmail.com">E-mail to Monirul Islam</a></p>
-        </td>
-    </tr>
-</table>
+        </div>
+    </div>
+</footer>
+
+
+<div class="modal fade" id="reg-form-area">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Modal Header</h3>
+                <button type="button" class="close" data-dismiss="modal">
+                    &Cross;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="reg-form-area">
+                    <h3 align="center">Form</h3>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formFirstName">First Name :</label>
+                        <input  type="text" maxlength="10" id="formFirstName" placeholder="Your first name" name="formFirstName" class="col-sm-8 col-xl-6 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formLastName">Last Name :</label>
+                        <input  type="text" maxlength="10" id="formLastName" placeholder="Your last name" name="formLastName" class="col-sm-8 col-xl-6 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formEmail">E-mail :</label>
+                        <input  type="email" maxlength="10" id="formEmail" placeholder="Your email" name="formEmail" class="col-sm-8 col-xl-6 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formPass">Password :</label>
+                        <input  type="password" maxlength="10" id="formPass" placeholder="Choose your password" name="formPass" class="col-sm-8 col-xl-6 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formPhone">Phone Number:</label>
+                        <input  type="text" maxlength="15" id="formPhone" placeholder="Your phone no" name="formPhone" class="col-sm-8 col-xl-6 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formBirthDay">Date of Birth :</label>
+                        <input  type="date" id="formBirthDay" placeholder="Date of Birth" name="formBirthDay" class="col-sm-8 col-xl-6 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formPhoto">Gender</label>
+                        <label class="form-check-label text-left">
+                            <label><input  type="radio" name="gender" value="male" />Male</label>
+                            <label><input  type="radio" name="gender" value="female" />Female</label>
+                        </label>
+
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formAddress">Address :</label>
+                        <textarea id="formAddress" placeholder="Your Address" name="formAddress" class="col-sm-8 col-xl-6 form-control" /></textarea>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" for="firstDistrict">Select District :</label>
+                        <select id="firstDistrict" name="firstDistrict" class="col-sm-8 col-xl-6 form-control" >
+                            <option selected>---Secect Your District----</option>
+                            <option >Sirajgonj</option>
+                            <option >Bogra</option>
+                            <option >Pabna</option>
+                            <option >Nator</option>
+                            <option >Rajshahi</option>
+                            <option >Naogaon</option>
+                        </select>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formPhoto">Attached Photo :</label>
+                        <input  type="file" id="formPhoto" name="formPhoto" class="col-sm-8 col-xl-6 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label" for="formPhoto"></label>
+                        <label class="form-check-label text-left">
+                            <input  type="checkbox" id="formcheck" name="formcheck" class="form-check-input" /> I agree with all condition
+                        </label>
+
+                    </div>
+                    <div class="form-group row">
+
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-xl-6 col-form-label"></label>
+                        <input  type="submit" id="formSubmit" name="formSubmit" class="btn btn-success" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="loging-user">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>LOGIN USER</h3>
+                <button type="button" class="close" data-dismiss="modal">
+                    &Cross;
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="reg-form-area">
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" for="userformEmail">E-mail :</label>
+                        <input  type="email" maxlength="10" id="userformEmail" placeholder="Your email" name="userformEmail" class="col-sm-8 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" for="formLastName">Password :</label>
+                        <input  type="password" maxlength="10" id="loginPassword" placeholder="Your Password" name="loginPassword" class="col-sm-8 form-control" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label"></label>
+                        <input  type="submit" id="res_Submit" name="formSubmit" class="btn btn-success" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
