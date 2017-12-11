@@ -118,7 +118,7 @@ footer,header {
 }
 footer .container,
 header .container {
-    background-color: transparent;
+    background-color: #e8f0f7;
 }
 @media screen and (max-width: 600px) {
     .demo{
