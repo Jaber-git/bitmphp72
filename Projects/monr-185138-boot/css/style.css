@@ -155,6 +155,9 @@ header .container {
         right: 10px;
         top:10px;
     }
+    .col-form-label {
+    padding-left: 0;
+    }
 }
 @media screen and (max-width: 575px) {
     .border-remove{
@@ -178,9 +181,11 @@ header .container {
     .reg-form-area {
         width: 300px;
     }
+    
 }
 @media screen and (max-width: 400px){
     .reg-form-area {
         width: 230px;
     }
+    
 }
