@@ -123,6 +123,9 @@ header .container {
  .banner img{
         width: 100%;
     }
+.logo img {
+    z-index: 1;
+}
 @media screen and (max-width: 600px) {
     .demo{
         background-color: orangered;
