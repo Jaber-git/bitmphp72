@@ -1,0 +1,87 @@
+HTML default boishisto ase...
+3
+1. tag er boishisto ase
+
+2.tag er content ase
+
+3. tag er modder content add kora jai...
+
+
+1. var
+2. A-Z, a-z, 0-9, _, $;
+3. No Number.
+
+DataType 3 type of data type: 1. number, 2.String and 3.boolean
+Java Script concat sign +
+
+Arithmatic Operator
+    Binary (+,-,*/,%)
+    Unary (++,--,(-))
+    Assignment Operator(=,+=,-=, *=,/=,%=+)
+    conditional (>,>=, <, <=, ==,===, !==)
+    logical (&&, ||, !)
+
+What is statement ? What type of statement and discribe it.*****
+
+statement exam (var x=10;  var x=10; etc
+3 type of statement
+-------------------
+* single line, exam...
+document.write("hello world");
+
+*conditional,
+*repeated
+
+4 syntax condition use korte hobe..
+
+*conditional,
+if, ifelse, ifelse, if switch
+----------------------------------------
+11 class pactice
+*repeated
+for while, do while, for in
+
+Array, what si array..
+Array is spacial variable...multiple data store kora jai.
+
+3 vabe array declary kora jai..
+
+var y = new Array();
+var z = Array();
+var a = [];  try best using...
+
+
+Function---what is function?
+function is a syntax...spacific job or kaj...
+* function is block of come
+* Particular job..
+* Re use
+* Can not work himself have to call
+* can return
+
+ Function
+    (--2 Part)
+        ---calling exam--demo();
+        --defination function demo(){
+                    document.write("hello world");
+                  }
+
+
+    (2 type) -----user define ---built in
+
+
+    ------
+    parameter and argument difference..
+    function(parameter, parameter)
+    demo(argument, argument);
+
+
+what is event?
+
+client or user or visitor..mouse or keyboard use kore ja korbe all work is event..
+soto soto gotona..
+
+what is attribute?
+how to attached event in heml element..
+
+java scrit er . hossa object sign
