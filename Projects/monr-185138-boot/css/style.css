@@ -155,6 +155,7 @@ header .container {
         right: 10px;
         top:10px;
     }
+    .form-check-label,
     .col-form-label {
     padding-left: 0;
     }
