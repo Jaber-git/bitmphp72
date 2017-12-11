@@ -114,7 +114,13 @@ ul.social-icon {
     text-align: right;
     float: right;
 }
-
+footer,header {
+    background-color: #DAE6F2;
+}
+footer .container,
+header .container {
+    background-color: transparent;
+}
 @media screen and (max-width: 600px) {
     .demo{
         background-color: orangered;
