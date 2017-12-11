@@ -120,6 +120,9 @@ footer .container,
 header .container {
     background-color: #e8f0f7;
 }
+ .banner img{
+        width: 100%;
+    }
 @media screen and (max-width: 600px) {
     .demo{
         background-color: orangered;
@@ -160,9 +163,8 @@ header .container {
     }
     .banner{
         text-align: center;
-        width: 100%;
     }
-    
+   
     ul.social-icon {
     position: absolute;
     top: -30px;
