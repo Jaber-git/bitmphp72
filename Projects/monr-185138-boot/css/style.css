@@ -140,6 +140,12 @@ header .container {
         border: 1px solid #ccc;
         padding-right: 0px;
     }
+    .social-icon{
+        text-align: right;
+        position: absolute;
+        right: 10px;
+        top:10px;
+    }
 }
 @media screen and (max-width: 575px) {
     .border-remove{
@@ -156,10 +162,9 @@ header .container {
         text-align: center;
         width: 100%;
     }
-    .social-icon{
-        text-align: right;
-        position: absolute;
-        right: 10px;
-        top:10px;
-    }
+    
+    ul.social-icon {
+    position: absolute;
+    top: -30px;
+}
 }
