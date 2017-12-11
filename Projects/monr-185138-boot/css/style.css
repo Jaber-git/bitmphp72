@@ -50,11 +50,14 @@ ul{
 
 .quickLink tr {
     border-bottom: 1px solid #ccc;
+    background-color: #9acd3229;
 }
 .quickLink tr:hover {
     background-color: #f0ffff;
 }
-
+#mainMenu ul li>a {
+    text-transform: uppercase;
+}
 .quickLink tr:hover td a{
     color: #484c4c;
 }
