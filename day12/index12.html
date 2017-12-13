@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .class-one{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 100px;
+    }
+    .class-two{
+        height: 200px;
+        width: 200px;
+        background-color: green;
+        border-radius: 100px 100px 0 0;
+    }
+    .class-three{
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+        border-radius: 0px 0px 100px 100px;
+    }
+    .class-default{
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        border-radius: 0px 100px 0px 100px;
+    }
+    .divone{
+        height: 300px;
+        width: 300px;
+        border: 1px solid #cccccc;
+        }
+    .up{
+       height: 0;
+       transition: 2s;
+    }
+    .down{
+       height: 300px;
+       width: 200px;
+       transition: 2s;
+    }
+
+  </style>
+</head>
+<body>
+<div class="table">
+
+        <button type="button" name="redBtn" id="redBtn">Red</button>
+        <button type="button" name="greenBtn" id="greenBtn">Green</button>
+        <button type="button" name="blueBtn" id="blueBtn">Blue</button>
+        <button type="button" name="defaultBtn" id="defaultBtn">Default</button>
+        <button type="button" name="upBtn" id="upBtn">UP</button>
+        <button type="button" name="downBtn" id="downBtn">Down</button>
+        <hr/>
+        <div id="div" class="divone">           </div>
+    </div>
+<!--
+    <div class="table">
+        <table width="100%">
+            <tr>
+                <th>Stating Number</th>
+                <td><input type="number" name="firstNumber" id="firstNumber"></td>
+            </tr>
+            <tr>
+                <th>Ending Number</th>
+                <td><input type="number" name="lastNumber" id="lastNumber"></td>
+            </tr>
+            <tr>
+                <th>Result</th>
+                <td><textarea type="text" name="result" id="result"></textarea></td>
+            </tr>
+            <tr>
+            <th></th>
+                <td><textarea type="text" name="result" id="result"></textarea></td>
+            </tr>
+        </table>
+    </div>
+
+    <!---
+    <div class="table">
+            <table width="100%">
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name="firstName" id="firstName"></td>
+                </tr>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name="lastName" id="lastName"></td>
+                </tr>
+            </table>
+
+            <table width="100%" border="1">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Full Name</th>
+                </tr>
+                <tr>
+                    <td id="firstValue" height="30"></td>
+                    <td id="lastValue"></td>
+                    <td id = "fullName"></td>
+                </tr>
+            </table>
+        </div>
+    -->
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
