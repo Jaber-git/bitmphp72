@@ -97,7 +97,7 @@ ul{
     font-weight: bold;
 }
 .footer-area p {
-    text-align: center;
+    text-align: right;
     font-size: 12px;
     padding: 15px 0;
     width: 100%;
@@ -128,6 +128,13 @@ header .container {
     }
 .logo img {
     z-index: 1;
+}
+#contact {
+    text-align: center;
+    padding-top: 110px;
+}
+.row.footer-area {
+    height: 55px;
 }
 @media screen and (max-width: 600px) {
     .demo{
