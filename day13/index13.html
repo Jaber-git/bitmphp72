@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <style>
+    .demo{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #927fff;
+    }
+    .demo1::after{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background:#1c7430;
+        opacity: .5;
+    }
+  </style>
+</head>
+<body>
+
+<div id="div" class="container">
+    <button id="buttonAdd">Add me</button>
+    <button id="buttonRemove">Remove me</button>
+    <div id="div"></div>
+    <h1 id="h1" class="demo">This is heading</h1>
+    <hr/>
+    <table>
+        <tr>
+           <th>First Name</th>
+           <td><input type="text" id="firstName"></td>
+        </tr>
+        <tr>
+           <th>Last Name</th>
+           <td><input type="text" id="lastName"></td>
+        </tr>
+        <tr>
+           <th>Full Name</th>
+           <td id="fullName"></td>
+        </tr>
+        <tr>
+           <th></th>
+           <td><input type="submit" id="submitBtn" value="Submit"></td>
+        </tr>
+
+    </table>
+    <hr />
+    <div class="container">
+
+        <div id="imgGallery" class="col-12">
+            <img id="mainImage" src="img/slider/1.jpg" alt=""/>
+        </div>
+        <div id="subImgGallery" class="col-6">
+            <img id="img1" src="img/slider/1.jpg" alt="" height="80" width="80"/>
+            <img id="img2" src="img/slider/2.jpg" alt="" height="80" width="80"/>
+            <img id="img3" src="img/slider/3.jpg" alt="" height="80" width="80"/>
+            <img id="img4" src="img/slider/4.jpg" alt="" height="80" width="80"/>
+        </div>
+    </div>
+</div>
+<div class="demo1"></div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
