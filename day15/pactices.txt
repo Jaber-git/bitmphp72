@@ -1,0 +1,20 @@
+
+******************PHP*********************
+
+---Zend exam....goal
+Rasmus Lerdorf--1990
+
+PHP Server Names
+Apache, IIs, Zeus, Aolserver.
+facebook makes hip&hoop compiler server
+
+pactice..
+syntex, variable, operator, statement, array, function, class..
+syntex...file extentio.. .php
+<?php starting file.....write in html, css, js, php of php file..
+
+Error:
+Parse error: syntex error ....lower error...example ; coma etc
+fatal error: logical error ....max error...
+Notice error: error ...
+worning error: worning error ....
