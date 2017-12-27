@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<title>HTML Tutorial</title>
+<title>PHP HOME WORK</title>
 <body>
-
+<h1>PHP HOME WORK</h1>
 <?php
 //     echo "<html>";
 //        echo "<head>";
