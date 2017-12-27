@@ -1,0 +1,36 @@
+Array 3 types
+numeric array sonkha
+new associative array string
+multi dimantional array er index more then 1 is called multi dimantional array
+
+
+OOP
+----main theme...
+    demo.php take
+    1st plan...then brake it make all parts are function work..
+    and attached all parts or function.
+
+    oop er syntax:
+    ===============
+    --class
+    --object
+    --property
+    --object
+    --Method
+    --Encapsulation
+    --inheritance,
+    --trait
+    --interface/abstract
+    --polymorphism
+    --Namespace
+
+   --class:
+   class: kono ekta ginis er spacifiction make kore...attribute-propery--varibale
+    kivabe mehod declar korte hy...
+   class is real thing discription
+   class is specification..
+
+   object:object is real thing
+permission of class
+
+-> object sign
