@@ -1,77 +1,65 @@
-<?php
-    //require_once 'app\classes\Student.php';
-    //unit test korte hobe...xml
-    //mysql, mysqli, PDO libary of Row php libary
-require_once 'vendor\autoload.php';
-
-    use App\classes\Student;
-    if (isset($_POST['btn'])){
-        //$student = new app\classes\Student();
-        Student::saveStudentInfo($_POST);
-    }
-
-//    $link = mysqli_connect('localhost','root','', 'php72');
-//
-//    $dataQuery = "SELECT * FORM students";
-//
-//    if(mysqli_query($link, $dataQuery)){
-//        echo 'Student info save successfull';
-//    }else{
-//        die('Query problem'.mysqli_error($link));
-//    }
-//    print_r($dataQuery);
-
-?>
-<style>
-    table, tr, td{
-        border: 1px solid #dddddd;
-    }
-    .container{
-        width: 600px;
-        margin: 0 auto;
-    }
-    a{
-        text-decoration: none;
-        padding: 5px 10px;
-        background-color: #dddddd;
-    }
-    a:hover{
-        background-color: #aadccc;
-    }
-
-</style>
-<div class="container">
-<hr/>
-    <a href="index.php">Add Student</a>
-    <a href="view-students.php">View Students</a>
-<hr/>
-<form action="" method="post">
-    <table width="100%">
-        <tr>
-            <th>Full Name </th>
-            <td><input type="text" name="full_name" id="fullName"></td>
-        </tr>
-        <tr>
-            <th>Email Address</th>
-            <td><input type="text" name="email_address" id="emailAddress"></td>
-        </tr>
-        <tr>
-            <th>Mobile No</th>
-            <td><input type="number" name="mobile_number" id="numberNumber"></td>
-        </tr>
-        <tr>
-            <th></th>
-            <td><input type="submit" name="btn" id="btn" value="Add"></td>
-        </tr>
-
-    </table>
-</form>
-</div>
-
-<!--php file to file data neye asar syntex...-->
-<!--? is get method..-->
-<!--example.php?a=b
-index is a..-->
-<!--for data receive-->
-<!--$res= $_GET['w'];-->
-<!--echo $res;-->
+<!doctype html>
+<html>
+	<head>
+	<title>Server Maintenance</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<style>
+	  body { 
+	  text-align: center; 
+	  padding: 150px; padding:0;
+	  margin:0; 
+	  background-color:#F1F1F1;
+	  font-family: 'Roboto', sans-serif !important;
+	  color: #333;
+	  }
+	  h1{ 
+		font-size: 40px; color:#FE1D24; 
+		padding: 0; 
+		margin: 0px 0 10px 0;
+		font-family: 'Roboto', sans-serif !important;
+		font-weight: 400;
+		}
+		h2{
+		font-family: 'Roboto', sans-serif !important;
+		font-weight: 400;
+		}
+		
+	  .under_maintenance { 
+		  display: block; 
+		  text-align: left; 
+		  max-width: 645px; 
+		  margin: 0 auto; 
+		  background-color: #ffffff; 
+		  padding: 20px 50px; 
+	  }
+	  p{
+		font-family: 'Roboto', sans-serif !important;
+		font-weight: 400;
+	  }
+	  a { color: #dc8100; text-decoration: none; }
+	  a:hover { color: #333; text-decoration: none; }
+	  #logo {
+		display: block;
+		margin-top: 3%;
+		padding: 30px 0;
+		text-align: center;
+	}
+	</style>
+	</head>
+	<body>
+	<article>
+		<div id="logo">
+			<img src="https://dev.premisehq.co/Images/DempLogo.png" alt="Premisehq Logo" />
+		</div>
+		<div class="under_maintenance">
+			<h1>Site under maintenance</h1>
+			<hr>
+			<h2>We&rsquo;ll be back soon!</h2>
+			<p>The site is under maintenance. We will be back online shortly. Thank you for your patience.</p>
+			<p>For any inquiry please contact <a href="mailto:#">support</a>.</p>
+			<br>
+			<p>&mdash; The Team</p>
+		</div>
+	</article>
+	</body>
+</html>
